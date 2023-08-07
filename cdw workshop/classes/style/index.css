@@ -1,0 +1,20 @@
+h1 + p {
+    color: red;
+}
+
+a:active{
+    color: red;
+}
+
+/* .wrapper{
+    
+    
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+
+.card {
+    width: 300px;
+    border: 2px solid;
+    text-align: center;
+}

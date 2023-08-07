@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: crimson;
+}
+
+.lg {
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 0px;
+    color: white;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.card-container{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    
+    font-family: sans-serif;
+   
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cards {
+    animation-name: card;
+    animation-duration: 3s;
+    width: 500px;
+}
+
+/* .cards:hover{
+    transform:scale(0.9);
+    transition-duration: 2s;
+} */
+
+.reviews {
+    text-align: end;
+}
+
+.food-name{
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.dish-image{
+    padding: 5px;
+    width: 100%;
+}
+
+@keyframes card {
+    100%{
+        transform: rotate(45deg);
+    }
+}
